@@ -1,0 +1,10 @@
+.form-card-container {
+  background-color: #dedede;
+  height: auto;
+  margin-top: -10px;
+  padding-top: 20px;
+  padding-left: 10px;
+  margin-bottom: 4px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

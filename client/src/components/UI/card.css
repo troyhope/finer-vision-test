@@ -1,0 +1,17 @@
+.card-container {
+  background-color: white;
+  width: 600px;
+  height: auto;
+  border: none;
+  border-radius: 10px;
+  padding: 4px 4px 0px 4px;
+  box-shadow: 0 0 20px rgb(148, 148, 148);
+  /* center the container */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  margin: auto;
+}
