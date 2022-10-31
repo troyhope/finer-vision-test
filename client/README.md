@@ -1,3 +1,8 @@
+# To-do List:
+
+- [ ] Add some validation to the birthday input. i.e. format and length should be dd/mm/yyyy
+- [x] Convert button component to TypeScript (had to figure out how to use spread operator in Props)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
