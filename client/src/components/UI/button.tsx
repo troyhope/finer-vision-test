@@ -5,7 +5,13 @@ const BUTTON_TYPES_CLASSES = {
   next: "next",
 };
 
-const Button = ({ children, buttonType, ...otherProps }) => {
+type Props = {
+  children?: React.ReactNode;
+  buttonType: keyof typeof BUTTON_TYPES_CLASSES;
+  [key: string]: any;
+};
+
+const Button = ({ children, buttonType, ...otherProps }: Props) => {
   return (
     <div className={`"button-container" ${BUTTON_TYPES_CLASSES[buttonType]}`}>
       <button {...otherProps}>{children}</button>
