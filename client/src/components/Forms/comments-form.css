@@ -38,7 +38,8 @@ select {
   margin-top: 4px;
   color: rgb(119, 119, 119);
   font-weight: bold;
-  box-shadow: inset 0px 0px 16px rgb(101, 100, 100);
+  box-shadow: inset 0px 0px 5px rgb(101, 100, 100);
+  background-image: linear-gradient(white, lightgray, rgb(159, 159, 159));
 }
 
 .birthday-input input {
